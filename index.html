@@ -1,46 +1,60 @@
-<!DOCTYPE HTML>
-<html>
+<!-- The homepage can include a brief introduction and links to other sections. -->
+<!-- You can also add your header and navigation here. -->
 
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-<meta charset=”UTF-8”>
-
-<!-- THE TITLE WILL APPEAR IN THE BROWSER WINDOW OR TAB -->
-<title>EK - Sustainable Hybrid Systems </title>
-
-<link rel="stylesheet" type="text/css" href="styles-contact.css">
-<link rel="stylesheet" href="https://use.typekit.net/mwu7gmv.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lily Goldman</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div>
-        <img id="logo" src="images/EK-logo@2x.png" alt="EK logo" width="700">
-        <nav>
-            <ul><!--list of links-->
-                <!--list of links-->
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="background.html">Background</a></li>
-                <li><a href="https://www.sciencedirect.com/sdfe/pdf/download/eid/3-s2.0-B012176480X003600/first-page-pdf">Definitions</a></li>
-                
-                
-                
-            </ul>
-        </nav>
-    </div>
-    <div class="center" >
-        <h1>- + - EK - + -<br>Hybrid Systems</h1>
-        <h2>Climate tech is a fast growing industry that is built on creative solutions to reduce the amount of carbon emissions on the
-            planet. EK is an up and coming startup looking to develop hybrid systems that will allow wind and solar power to coexist with battery
-            storage at the heart.</h2>
+    <!-- Header and Navigation Menu (same as in previous examples) -->
+     <!-- Navigation Menu -->
+    
+    <main>
+        <!-- Vertical Alignment Container -->
+        <div class="vertical-align-container">
+            <!-- Header Section -->
+            <header>
+                <h1>Lily Goldman</h1>
+                <p>Electrical Engineer</p>
+                <!-- Navigation Menu -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="experience.html">Engineering Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="profile.JPG" alt="Your Profile Picture" width="600" height="500">
+                <!-- Introduction -->
+                <p>Welcome to my portfolio website. I am an electrical engineer passionate about...</p>
+                <!-- Resume Link -->
+                <a href="LilyGoldman_Fall2023_Resume.pdf" target="_blank">Download Resume</a>
+            </header>
+        </div>
+    </main>
       
 
-       
-    </div>   <!--end of center div-->
-   
-
-
-
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Lily Goldman</p>
+    </footer>
+    <script>
+        // JavaScript for responsive menu toggle
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+    
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("show");
+        });
+    </script>
 </body>
-
 </html>

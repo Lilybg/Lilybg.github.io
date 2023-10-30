@@ -113,8 +113,9 @@ h2 {
 
 p {
 	font-family: 'Zen Loop';
-	font-size: 1.7em;
+	font-size: 1.2em;
     line-height: 1.6;
+	margin-left: 80px;
     color: rgb(0, 0, 0);
 }
 
@@ -147,16 +148,22 @@ nav li{
 
 nav a{
 	display: block;
-	color: black;
+	color: #FFDAB9;
 	text-align: center;
 	padding: 15px 56.75px;
 	text-decoration: none;
 	font-weight: bold;
-    background: #5f5e5e;
+    background: #FFBF86;
 }
 
 a:hover {
 	color: white;
+}
+
+.right-link {
+    float: left; /* Float the link to the right */
+    margin-left: 80px;
+	/* You can also add additional styles if needed */
 }
 
 /*#FFDAB9; /* Soft Peach */

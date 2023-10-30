@@ -107,7 +107,7 @@ h2 {
     line-height: 1.4;
     color: rgb(0, 0, 0);
     padding: 10px 0px;
-    margin: 0px auto 10px auto;
+    margin: 0px auto 0px auto;
     margin-left: 60px;
 }
 
@@ -132,13 +132,17 @@ nav {
   
 ul {
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
 }
 
 ul.with-bullets {
     list-style: disc; /* You can use 'circle' or 'square' for different bullet styles */
     margin-left: 100px; /* Adjust the left margin to control the space between bullet points and text */
+	font-size: 1.2em;	
+}
+
+li {
+    margin-bottom: 10px; /* Add 10 pixels of space between list items */
 }
 
 nav li{
